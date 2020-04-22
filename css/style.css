@@ -1,0 +1,1166 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a ,a:hover{
+	text-decoration: none;
+} 
+/*******************************/ 
+/*Header section css code start*/ 
+/*******************************/   
+.header-section{
+	width: 100%;
+}
+.bg-light {
+	padding: 20px 0px;
+}
+.banner-section{
+	width: 100%;
+	background: url(../img/5.png) center top no-repeat;
+	background-size: cover;
+}                                               
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 13px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	font-size: 14px;
+	color: #009688;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #009688;
+}
+/*******************************/ 
+/*Header section css code end*/ 
+/*******************************/
+
+/*******************************/ 
+/*Banner-section css code start*/
+/*******************************/ 
+.banner-section .banner-inner h4{
+	font-size: 24px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-section .banner-inner h1{
+    font-size: 68px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-section .banner-inner p{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 21px;
+    margin-bottom: 50px;
+}
+.banner-section .btn-primary{
+	text-transform: uppercase;
+	background: transparent;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-section .btn-primary:hover{
+	color: #fff;
+	background: #009688;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+.banner-inner{
+	width: 100%;
+	margin: 132px 0px;
+}
+/*******************************/ 
+/*Banner-section css code end*/
+/*******************************/ 
+
+/******************************/ 
+/*about-section css code start*/
+/******************************/ 
+.about-inner{
+	width: 100%;
+	text-align: center;
+}
+.about-inner h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 71px;
+}
+.about-inner p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #b3b3b3;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+.about-inner img{
+	width: 100%;
+}
+/******************************/ 
+/*about-section css code start*/
+/******************************/
+
+/********************************/ 
+/*service-section css code start*/
+/********************************/ 
+.service-inner{
+	width: 100%;
+	text-align: center;
+}
+.service-section{
+	background: #fafafa;
+	padding: 30px 0px;
+}
+.inner{
+	width: 100%;
+	text-align: center;
+	margin-top: 90px;
+}
+.service-inner{
+	margin-bottom: 90px;
+}
+.inner img{
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.inner img:hover{
+	color: #009688;
+	background: #009688;
+}
+.service-inner h4{
+	font-family: 'Poppins', sans-serif;
+	font-size: 19px;
+    margin: 20px 0px;
+}
+.service-inner p{
+	font-size: 14px;
+    font-weight: 400;
+}
+/********************************/ 
+/*service-section css code start*/
+/********************************/
+
+/**********************************/ 
+/*protfolio-section css code start*/
+/**********************************/ 
+.protfolio-inner{
+	width: 100%;
+	text-align: center;
+}
+.protfolio-inner h3{
+	font-size: 30px;
+    font-weight: 600;
+}
+.protfolio-section{
+	width: 100%;
+	padding: 70px 0px;
+}
+.in-img .btn-info{
+	font-size: 14px;
+    font-weight: 600;
+    margin: 36px 0px;
+    background: transparent;
+    color: #888888;
+    font-family: 'Poppins', sans-serif;
+}
+.in-img .btn-info:hover{
+	color: #fff;
+	background: #1b9b8f;
+}
+.portfolio img{
+	width: 100%;
+	padding-bottom: 30px;
+} 
+.portfolio .portf-inner {
+    width: 92%;
+    height: 88.5%;
+    position: absolute;
+    top: 0%;
+    background: rgb(4 ,146 ,133, .5 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.portfolio:hover .portf-inner{
+	display: block;
+	transition: 1s;
+}
+.portf-inner ul{
+	position: relative;
+	top: 48%;
+
+}
+.portf-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.portf-inner ul li a{
+	margin:0px 5px; 
+}
+.portf-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	font-size: 22px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+/********************************/ 
+/*protfolio-section css code End*/
+/********************************/ 
+
+/*********************************/ 
+/*progress-section css code start*/
+/*********************************/ 
+.progress-inner h3{
+	font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 0px;
+}
+.card .card-header{
+	background-color: transparent !important;
+	border: none !important;
+	padding: 0px !important;
+	margin-bottom: 20px;
+}
+.card{
+	box-shadow: 0px 2px 25px 0 rgb(110,130,208, .18);
+}
+.btn-link{
+	width: 100%;
+	height: 60px;
+	color: #000 !important;
+	font-weight: bold !important;
+	text-align: left !important;
+	text-decoration: none !important;
+	background: #f1f1f1;
+}
+.btn-link:after{
+	content: '\002B';
+	width: 35px;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 5px;
+	right: 15px;
+	top: 11px;
+	position: absolute;
+}
+.card-header .btn-link{
+	font-size: 14px;
+}
+.card-img img{
+	margin-top: 15px;
+    margin-left: 15px;
+}
+.card-body{
+	font-size: 11px;
+    font-weight: 600;
+    color: #c0bfbf;
+}
+.pro{
+	width: 100%;
+}
+.progress-inne{
+    margin: 50px 0px;
+}
+.progress-inne h3{
+	font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 0px;
+}
+.prog h6{
+	font-size: 14px;
+    font-weight: 500;
+}
+.prog{
+    margin-bottom: 43px;
+}
+.progress-section{
+	width: 100%;
+	background: #fafafa;
+	padding: 15px 0px;
+}
+/*******************************/ 
+/*progress-section css code End*/
+/*******************************/ 
+
+/********************************/ 
+/*history-section css code start*/
+/********************************/ 
+.history h3{
+	font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 42px;
+}
+.history p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+.history .btn-info{
+	text-transform: uppercase;
+	background: transparent;
+    border: 1px solid #b3b3b3;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 11px;
+    color: #b3b3b3;
+}
+.history .btn-info:hover{
+	background: #009688;
+	color: #fff;
+	transition: 1s;
+}
+.history{
+	padding: 90px 0px;
+}
+.history img{
+	width: 100%;
+}
+/******************************/ 
+/*history-section css code End*/
+/******************************/ 
+
+/*****************************/ 
+/*core-section css code start*/
+/*****************************/ 
+.core-section{
+	background: #f7f7f7;
+	padding: 110px 0px;
+}
+.core{
+	margin-bottom: 23px;
+	text-align: center;
+}
+.core img{
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.core-in{
+	text-align: center;
+}
+.core-i{
+	text-align: center;
+}
+.core-in h4{
+	font-family: 'Poppins', sans-serif;
+	font-size: 19px;
+	color: #444444;
+}
+.core-i h4{
+	font-family: 'Poppins', sans-serif;
+	font-size: 19px;
+	color: #444444;
+}
+.core-in p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #b3b3b3;
+    margin-top: 16px;
+}
+.core-i p{
+	font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #b3b3b3;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+/***************************/ 
+/*core-section css code End*/
+/***************************/ 
+
+/*****************************/ 
+/*like-section css code Start*/
+/*****************************/ 
+.like-section{
+	width: 100%;
+	background: #15141a;
+	padding: 45px 0px 23px 0px;
+}
+.like-in .btn-info{
+	padding: 6px 20px;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #b3b3b3;
+	border-radius: 2px;
+	font-size: 16px; 
+	margin-right: 15px;
+}
+.like-in .btn-info:hover{
+	color: #fff;
+	background: #049285;;
+	border: 1px solid #b3b3b3;
+	transition: 1s;
+}
+.like h3{
+	color: #fff;
+	font-size: 29px;
+    font-weight: 700;
+}
+.like h4{
+	color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.like-in{
+	width: 100%;
+	text-align: right;
+	margin-top: 16px;
+}
+/*****************************/ 
+/*like-section css code end***/
+/*****************************/ 
+
+/*************************/ 
+/*team-section code start*/
+/*************************/ 
+.team-section{
+    width: 100%;
+    padding: 110px 0px;
+}
+.team{
+	width: 100%;
+	text-align: center;
+}
+.team h3{
+	font-size: 30px;
+    font-weight: 600;
+}
+.team img{
+    margin-top: 14px;
+}
+.team-in img{
+	width: 100%;
+	margin-top: 55px;
+}
+.team-in .port-inner .po{
+	width: 100%;
+	height: 21%;
+	background: #049285;
+	position: absolute;
+	top: 80%;
+}
+.port-inner h4 {
+	color: #fff;
+	 font-family: 'Poppins', sans-serif;
+}
+.port-inner p {
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+.port-inner strong {
+	color: #fff;
+}
+.team-in .port-inner {
+    width: 90%;
+    height: 84%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    background: rgb(73 ,70 ,69, .9 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+	margin-top: 20px;
+}
+.team-in:hover .port-inner{
+	display: block;
+	transition: 1s;
+}
+.port-inner ul{
+	position: relative;
+	top: 85%;
+}
+.port-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.port-inner ul li a{
+	margin:0px 5px; 
+}
+.port-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	font-size: 22px;
+}
+/***************************/ 
+/*team-section css code End*/
+/***************************/ 
+
+/******************************/ 
+/*Price-section css code Start*/
+/******************************/ 
+.price-section{
+	width: 100%;
+	background: url(../img/Bg.png) center top no-repeat;
+	background-size: cover;
+	padding: 60px 0px;
+}
+.price{
+	width: 100%;
+	text-align: center;
+}
+.price h3{
+	font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 100px;
+    color: #fff;
+}
+.p-in{
+	width: 100%;
+	background: #313131;
+	padding: 25px 0px;
+}
+.p-in h5{
+	font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.p-in h6{
+	font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+}
+.p-in p{
+	font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+.p-in strong{
+	font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+}
+.pr-in p{
+	font-size: 14px;
+    font-weight: 500;
+    color: #808080;
+    padding: 10px;
+    margin-top: 10px;
+}
+.pr-in h4{
+	font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: #262626;
+    padding: 13px 0px;
+}
+.price-inner{
+	width: 100%;
+	background: #fff;
+	text-align: center;
+}
+.pri-in h4:hover{
+	background: #009688;
+	color: #fff;
+    transition: 1s;
+}
+.p-in strong:hover{
+	background: transparent;
+	color: #009688;
+    transition: 1s;
+}
+.pr-in .divider{
+	width: 100%;
+    height: 1px;
+    background: #e0e0e0;
+}
+.pr-in .dividers{
+	width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    background:#3f3f3f;
+}
+.price-inner:hover .p-in strong:hover .price-inner:hover .pri-in h4:hover{
+	color: #009688;
+}
+/****************************/ 
+/*price-section css code End*/
+/****************************/ 
+
+/********************************/ 
+/*leatest-section css code Start*/
+/********************************/
+.leatest-section{
+	width: 100%;
+	padding: 50px 0px;
+}
+.leatest h3{
+	font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+.leatest-section .card{
+	width: 100%;
+}
+.card-title{
+	font-size: 17px;
+    color: #444444;
+    font-weight: 600;
+}
+.card-body a{
+	font-size: 14px;
+	color: #009688;
+}
+.card-body p{
+	font-size: 12px;
+	color: #ababab;
+}
+/******************************/ 
+/*leatest-section css code End*/
+/******************************/ 
+
+/*********************************/ 
+/*contact section css Code Start */
+/*********************************/ 
+.contact-area{
+	width: 100%;
+	background:#f0f0f0;
+	padding: 80px 0px;
+}
+.contact-a{
+	width: 100%;
+	text-align: center;
+}
+.form-group .form-control{
+	width: 100%;
+}
+.contact-a h3{
+	font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.form-control{
+	background: transparent;
+}
+.brin .btn-info {
+    padding: 5px 60px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 14px;
+}
+.brin .btn-info:hover{
+	background: transparent;
+	color: #049285;
+	border: 1px solid#049285;
+	transition: 1s;
+}
+/*********************************/ 
+/*contact section css Code end */
+/*********************************/ 
+
+/*******************************/ 
+/*Footer section css code start*/
+/*******************************/ 
+.social-icon{
+	width: 100%;
+	background: #192330;
+    text-align: center;
+    padding: 54px 15px;
+}
+.soci{
+	width: 100%;
+	text-align: center;
+}
+.soci h4{
+	font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.soci h3{
+	font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.social-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-inner ul li a{
+	font-size: 24px;
+}
+.social-inner ul li a i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #6b6b6b;
+	border: 1px solid #6b6b6b;
+	transition: 0.5s;
+}
+.social-inner ul li a i{
+	background-color: transparent;
+	border: 1px solid #6b6b6b;
+	color: #fff;
+	margin-left: 33px;
+}
+.social-inner ul li a .fa-facebook:hover{
+	background-color: #3b5998;
+	border: 1px solid #3b5998;
+	color: #fff;
+}
+.social-inner ul li a .fa-youtube:hover{
+	background-color: #FF0000;
+	border: 1px solid #FF0000;
+	color: #fff;
+}
+.social-inner ul li a .fa-twitter:hover{
+	background-color: #00acee;
+	border: 1px solid #00acee;
+	color: #fff;
+}
+.social-inner ul li a .fa-linkedin:hover{
+	background-color: #0e76a8;
+	border: 1px solid #0e76a8;
+	color: #fff;
+}
+.social-inner ul li a .fa-instagram:hover{
+	background-color: #FD1D1D;
+	border: 1px solid #FD1D1D;
+	color: #fff;
+}
+/*****************************/ 
+/*Footer section css code End*/
+/*****************************/ 
+
+/****************************/
+/*Media query css code start*/
+/****************************/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+.navbar-light .navbar-nav .active>.nav-link {
+    font-size: 15px;
+    background: #009688;
+    color: #fff;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+    margin-left: 0px;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background: #009688;
+	color: #fff;
+}
+.banner-section .banner-inner h4 {
+    font-size: 12px;
+    text-align: center;
+}
+.banner-section .banner-inner h1 {
+    font-size: 35px;
+    text-align: center;
+}
+.banner-section .banner-inner p {
+    text-align: center;
+}
+.banner-section .btn-primary {
+    margin-left: 30%;
+}
+.about-inner h4 {
+    font-size: 17px;
+    margin-top: 60px;
+}
+.about-inner p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+    color: #b3b3b3;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.inner {
+    margin-top: 34px;
+}
+.service-inner {
+    margin-bottom: 20px;
+}
+.protfolio-inner h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+.in-img .btn-info {
+    margin: 15px 0px;
+}
+.protfolio-section {
+    padding: 43px 0px;
+}
+.portf-inner ul {
+    top: 39%;
+}
+.progress-inner h3 {
+    font-size: 24px;
+    margin: 25px 0px;
+}
+.card-img img {
+    margin-top: 15px;
+    margin-left: 38%;
+}
+.card-body {
+    text-align: center;
+}
+.prog {
+    margin-bottom: 26px;
+}
+.history h3 {
+    font-size: 19px;
+    text-align: center;
+}
+.history p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #b3b3b3;
+}
+.history {
+    padding: 50px 0px;
+}
+.core-section {
+    padding: 50px 0px;
+}
+.like h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+}
+.like h4 {
+    font-size: 17px;
+    font-weight: 400;
+}
+.team-in .port-inner {
+    width: 92%;
+    height: 88%;
+    position: absolute;
+    left: 4%;
+    top: 12%;
+    background: rgb(73 ,70 ,69, .9 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+	margin-top: 0px;
+}
+.team-in .port-inner .po {
+    width: 100%;
+    height: 20%;
+}
+.team-section {
+    padding: 50px 0px;
+}
+.team h3 {
+    font-size: 27px;
+}
+.price h3 {
+	font-size: 27px;
+    margin-bottom: 45px;
+}
+.price-inner {
+    margin-bottom: 22px;
+}
+.leatest h3 {
+    font-size: 27px;
+    margin-bottom: 38px;
+}
+.leatest-section .card {
+    margin-bottom: 22px;
+}
+.leatest-section {
+    padding: 60px 0px;
+}
+.contact-a h3 {
+	font-size: 27px;
+    margin-bottom: 11px;
+}
+.contact-area {
+    padding: 52px 0px 22px;
+}
+.soci h4 {
+    font-size: 18px;
+}
+.soci h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.social-inner ul li a i{
+	margin-left: 15px;
+}
+.social-icon {
+    padding: 39px 15px;
+}
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+.navbar-light .navbar-nav .active>.nav-link {
+    font-size: 15px;
+    background: #009688;
+    color: #fff;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 15px;
+    margin-left: 0px;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	background: #009688;
+	color: #fff;
+}
+.about-inner h4 {
+    font-size: 23px;
+}
+.about-inner p {
+    font-size: 15px;
+}
+.service-inner h4 {
+    font-size: 21px;
+}
+.service-inner p {
+    font-size: 14px;
+    font-weight: normal;
+}
+.history h3 {
+    font-size: 22px;
+}
+.history p {
+    font-size: 15px;
+}
+.history img {
+    width: 100%;
+    margin-top: 100px;
+}
+.portfolio .portf-inner {
+    width: 88%;
+    height: 82%;
+    position: absolute;
+    top: 0%;
+    background: rgb(4 ,146 ,133, .5 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+}
+.portf-inner ul{
+	position: relative;
+	top: 38%;
+}
+.card-body {
+    margin-left: 35px;
+}
+.core-i h4{
+	font-size: 17px;
+}
+.core-i p{
+	font-size: 8px;
+}
+.core-in h4 {
+    font-size: 17px;
+}
+.core-in p {
+    font-size: 8px;
+}
+.like h3 {
+    font-size: 18px;
+}
+.like h4 {
+    font-size: 8px;
+}
+.like-in {
+    margin-top: 6px;
+}
+.team h3 {
+    font-size: 25px;
+}
+.team-in .port-inner .po{
+	width: 100%;
+	height: 0%;
+	background: #049285;
+	position: absolute;
+	top: 0%;
+}
+.port-inner h4 {
+	font-size: 16px;
+}
+.port-inner p {
+	display: none;
+}
+.port-inner strong {
+	color: #fff;
+}
+.team-in .port-inner {
+    width: 85%;
+    height: 81%;
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    background: rgb(73 ,70 ,69, .9 );
+    text-align: center;
+    display: none;
+    transition: 1s;
+	margin-top: 20px;
+}
+.team-in:hover .port-inner{
+	display: block;
+	transition: 1s;
+}
+.port-inner ul{
+	position: relative;
+	top: 0%;
+}
+.port-inner ul li{
+	list-style: none;
+	display: inline-block;
+}
+.port-inner ul li a{
+	margin:0px 5px; 
+}
+.port-inner ul li a i{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	font-size: 22px;
+}
+.price h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.leatest h3 {
+    font-size: 25px;
+    margin-bottom: 43px;
+}
+.card-title {
+    font-size: 14px;
+}
+.card-body p {
+    font-size: 14px;
+}
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 769px) and (max-width: 1024px){
+.about-inner h4 {
+    font-size: 31px;
+}
+.about-inner p {
+    font-size: 10px;
+    font-weight: normal;
+}
+.service-inner h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.portfolio .portf-inner {
+    width: 91%;
+    height: 86.5%;
+}
+.portf-inner ul {
+    top: 37%;
+}
+.card-body {
+    margin-left: 6px;
+}
+.history p {
+    font-size: 11px;
+    font-weight: normal;
+}
+.history {
+    padding: 24px 2px 64px;
+}
+.history img {
+    margin-top: 50px;
+}
+.core-i p {
+    font-size: 11px;
+    font-weight: normal;
+}
+.core-in p {
+    font-size: 11px;
+    font-weight: normal;
+}
+.like h3 {
+    font-size: 25px;
+}
+.like h4 {
+    font-size: 11px;
+}
+.like-in {
+    margin-top: 10px;
+}
+.like-in .btn-info {
+    margin-right: 0px;
+}
+.port-inner h4 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -7px;
+}
+.team-in .port-inner .po {
+    width: 100%;
+    height: 21%;
+    background: #049285;
+    position: absolute;
+    top: 79%;
+}
+.team-in img {
+    width: 100%;
+    margin-top: 49px;
+}
+.port-inner ul li a i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 22px;
+}
+.social-icon {
+    padding: 33px 15px;
+}
+}
+
+/****************************/
+/*Media query css code end*/
+/****************************/
+
+
+
