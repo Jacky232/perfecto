@@ -108,7 +108,7 @@ a ,a:hover{
     font-weight: 600;
     color: #b3b3b3;
     margin-top: 20px;
-    margin-bottom: 75px;
+    margin-bottom: 54px;
 }
 .about-inner img{
 	width: 100%;
@@ -126,7 +126,7 @@ a ,a:hover{
 }
 .service-section{
 	background: #fafafa;
-	padding: 30px 0px;
+	padding: 10px 0px 0px;
 }
 .inner{
 	width: 100%;
@@ -299,7 +299,7 @@ a ,a:hover{
 .progress-section{
 	width: 100%;
 	background: #fafafa;
-	padding: 15px 0px;
+	padding: 0px 0px 20px;
 }
 /*******************************/ 
 /*progress-section css code End*/
@@ -313,7 +313,7 @@ a ,a:hover{
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
-    margin-top: 42px;
+    margin-top: 27px;
 }
 .history p{
 	font-family: 'Poppins', sans-serif;
@@ -350,7 +350,7 @@ a ,a:hover{
 /*****************************/ 
 .core-section{
 	background: #f7f7f7;
-	padding: 110px 0px;
+	padding: 80px 0px 60px;
 }
 .core{
 	margin-bottom: 23px;
@@ -402,7 +402,7 @@ a ,a:hover{
 .like-section{
 	width: 100%;
 	background: #15141a;
-	padding: 45px 0px 23px 0px;
+	padding: 45px 0px 36px 0px;;
 }
 .like-in .btn-info{
 	padding: 6px 20px;
@@ -432,7 +432,7 @@ a ,a:hover{
 .like-in{
 	width: 100%;
 	text-align: right;
-	margin-top: 16px;
+	margin-top: 22px;
 }
 /*****************************/ 
 /*like-section css code end***/
@@ -443,7 +443,7 @@ a ,a:hover{
 /*************************/ 
 .team-section{
     width: 100%;
-    padding: 110px 0px;
+	padding: 70px 0px 85px;
 }
 .team{
 	width: 100%;
@@ -523,7 +523,7 @@ a ,a:hover{
 	width: 100%;
 	background: url(../img/Bg.png) center top no-repeat;
 	background-size: cover;
-	padding: 60px 0px;
+	padding: 60px 0px 65px;
 }
 .price{
 	width: 100%;
@@ -532,7 +532,7 @@ a ,a:hover{
 .price h3{
 	font-size: 30px;
     font-weight: 600;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     color: #fff;
 }
 .p-in{
@@ -615,12 +615,12 @@ a ,a:hover{
 /********************************/
 .leatest-section{
 	width: 100%;
-	padding: 50px 0px;
+	padding: 50px 0px 66px;
 }
 .leatest h3{
 	font-size: 30px;
     font-weight: 600;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .leatest-section .card{
 	width: 100%;
@@ -648,7 +648,7 @@ a ,a:hover{
 .contact-area{
 	width: 100%;
 	background:#f0f0f0;
-	padding: 80px 0px;
+    padding: 60px 0px 65px;
 }
 .contact-a{
 	width: 100%;
@@ -688,7 +688,7 @@ a ,a:hover{
 	width: 100%;
 	background: #192330;
     text-align: center;
-    padding: 54px 15px;
+    padding: 49px 15px 25px;
 }
 .soci{
 	width: 100%;
@@ -820,7 +820,7 @@ a ,a:hover{
     margin: 15px 0px;
 }
 .protfolio-section {
-    padding: 43px 0px;
+    padding: 43px 0px 20px;
 }
 .portf-inner ul {
     top: 39%;
@@ -849,7 +849,7 @@ a ,a:hover{
     color: #b3b3b3;
 }
 .history {
-    padding: 50px 0px;
+    padding: 7px 0px 45px;
 }
 .core-section {
     padding: 50px 0px;
@@ -862,6 +862,9 @@ a ,a:hover{
 .like h4 {
     font-size: 17px;
     font-weight: 400;
+}
+.like-section {
+    padding: 45px 0px 47px 0px;
 }
 .team-in .port-inner {
     width: 92%;
@@ -880,7 +883,7 @@ a ,a:hover{
     height: 20%;
 }
 .team-section {
-    padding: 50px 0px;
+   padding: 50px 0px 62px;
 }
 .team h3 {
     font-size: 27px;
